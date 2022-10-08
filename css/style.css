@@ -181,9 +181,7 @@ body {
 
 .header {
   padding-block: 20px 20px;
-  background: rgb(50, 50, 50);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  background-color: white;
   outline: 5px solid #fcbf49;
 }
 
@@ -338,7 +336,7 @@ body {
   font-size: 64px;
   line-height: 70px;
   letter-spacing: -0.5px;
-  color: #DEDEDE;
+  color: white;
   -webkit-margin-after: 12px;
           margin-block-end: 12px;
   padding: 10px;
@@ -350,7 +348,7 @@ body {
   font-size: 24px;
   line-height: 36px;
   letter-spacing: -0.5px;
-  color: #959595;
+  color: white;
   -webkit-margin-after: 20px;
           margin-block-end: 20px;
   padding: 10px;

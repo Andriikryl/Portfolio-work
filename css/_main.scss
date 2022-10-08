@@ -7,7 +7,9 @@
         gap: 50px;
         flex-wrap: wrap;
         justify-content: center;
+        
         .main__box-info{
+          
             .main__box-titel{
                 font-family: 'Manrope';
                 font-style: normal;
@@ -15,7 +17,7 @@
                 font-size: 64px;
                 line-height: 70px;
                 letter-spacing: -0.5px;
-                color: #DEDEDE;    
+                color: white;    
                 margin-block-end: 12px;   
                 padding: 10px;         
             }
@@ -26,7 +28,7 @@
                 font-size: 24px;
                 line-height: 36px;
                 letter-spacing: -0.5px;
-                color: #959595;
+                color: white;
                 margin-block-end: 20px;
                 padding: 10px;
             }
