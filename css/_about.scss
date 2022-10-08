@@ -1,0 +1,131 @@
+.about{
+    position: relative;
+    padding-block: 70px;
+    .about__box-titel{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 100px;
+        line-height: 116px;
+        color: #F7F197;
+    }
+    .about__box-text{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 44px;
+        color: #03045E;     
+        border-left: 5px solid #fcbf49;
+        padding-left: 10px; 
+        margin-bottom: 30px;  
+    }
+    .about__work{
+        
+        // &::after{
+        //     content: "";
+        //     display: block;
+        //     width: 100%;
+        //     height: 100%;
+        //     background-color: black;
+        //     position: absolute;
+        //     mix-blend-mode:hard-light;
+        // }
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 800px;
+        padding-left: 20%;
+        .work__date{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 40px;
+            color: #03045E;  
+            padding-bottom: 10px; 
+            display: flex;
+            align-items: center;
+            &::before{
+                content: "";
+                display: block;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background-color: #fcbf49;
+                margin-right: 10px;
+            }      
+        }
+        .work__info{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 44px;
+            color: #03045E; 
+            padding-bottom: 15px;           
+        }
+    }
+}
+
+.titel__tree{
+    text-align: right;
+    padding-block-end: 30px;
+}
+
+
+
+
+ 
+    .coments__content{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        @media (min-width: 700px){
+            align-items: center;
+            flex-direction: row;
+        }
+        &::before{
+            content: "";
+            border: 1px solid #fcbf49;
+            align-self: stretch;
+
+        }
+        .coments__content-info{
+            font-family: 'Vollkorn';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 33px;
+            text-align: center;
+            color: #03045E;  
+            padding-block-end: 24px;
+        }
+
+        .coments__content-name{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #03045E;  
+            padding-block-start: 10px;
+            >*+*{
+                padding-block-start: 19px;
+            }
+        }
+
+        .section__item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            
+        }
+        .section__item--start {
+            order: -1;
+        }
+    }

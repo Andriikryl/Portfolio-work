@@ -1,0 +1,151 @@
+.main{
+    overflow: hidden;
+    padding-block: 80px;
+    // background-color: #000000;
+    .main__box{
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .main__box-info{
+            .main__box-titel{
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 70px;
+                letter-spacing: -0.5px;
+                color: #DEDEDE;    
+                margin-block-end: 12px;   
+                padding: 10px;         
+            }
+            .main__box-text{
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                letter-spacing: -0.5px;
+                color: #959595;
+                margin-block-end: 20px;
+                padding: 10px;
+            }
+        }
+        .main__box-img{
+        
+            border: 1px solid #fcbf49;
+            border-radius: 60% 40% 59% 41% / 32% 28% 72% 68% ;
+            position: relative;
+            &::before{
+                content: "";
+                background-image: url(../images/main/plus.svg);
+                display: block;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 50px;
+                height: 56px;
+                position: absolute;
+                top: 0;
+                right: 0;
+              }
+              &::after{
+                content: "";
+                background-image: url(../images/main/slesh.svg);
+                display: block;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 103px;
+                height: 30px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+              }
+            .main__inner-box{
+                max-width: 600px;
+                clip-path: circle(30.2% at 51% 59%);
+                img{
+                    width: 100%;
+                    height: auto;
+                    aspect-ratio: 4/3;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+
+.media {
+    padding-block-end: 40px;
+    position: relative;
+    .face{
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      background:  linear-gradient(89.68deg, #FBFBFB 49.07%, rgba(251, 251, 251, 0) 97.72%);
+      border-left: 5px solid #fcbf49;
+      &::before{
+        content: "";
+        background-image: url(../images/main/Vector7.svg);
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+    .inst{
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      background:  linear-gradient(89.68deg, #FBFBFB 49.07%, rgba(251, 251, 251, 0) 97.72%);
+      border-left: 5px solid #fcbf49;
+      &::before{
+        content: "";
+        background-image: url(../images/main/IMAGE4.svg);
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+    .gmail{
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      background:  linear-gradient(89.68deg, #FBFBFB 49.07%, rgba(251, 251, 251, 0) 97.72%);
+      border-left: 5px solid #fcbf49;
+      &::before{
+        content: "";
+        background-image: url(../images/main/IMAGE3.svg);
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    
+      }
+    }
+    li{
+      margin-bottom: 10px;
+      a{
+        color: #191921;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        display: inline-block;
+        padding: 20px 0px;
+      }
+    }
+  
+  }
